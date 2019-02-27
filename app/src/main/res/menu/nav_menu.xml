@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/friend_bar"
+        android:icon="@drawable/friend"
+        android:title="friend"/>
+    <item
+        android:id="@+id/mail_bar"
+        android:icon="@drawable/mail"
+        android:title="e-mail"/>
+    <item
+        android:id="@+id/location_bar"
+        android:icon="@drawable/location"
+        android:title="location"/>
+</group>
+</menu>

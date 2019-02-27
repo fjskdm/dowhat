@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/Btn_1"
+        android:text="启动Service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:id="@+id/Btn_2"
+        android:text="关闭Service"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>

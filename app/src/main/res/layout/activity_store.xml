@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/Btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="打开登录界面"/>
+
+    <Button
+        android:id="@+id/Btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="取消自动登录"/>
+
+    <Button
+        android:id="@+id/Btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="注册"/>
+
+    <Button
+        android:id="@+id/Btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="用用户名查询密码（SQLite）"/>
+
+    <ListView
+        android:id="@+id/LV_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

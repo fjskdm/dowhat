@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+        android:id="@+id/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Textview"
+        android:textAllCaps="false"/>
+
+        <Button
+        android:id="@+id/Butt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textAllCaps="false"/>
+
+        <Button
+        android:id="@+id/Edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textAllCaps="false"/>
+    
+        <Button
+        android:id="@+id/Radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioText"
+        android:textAllCaps="false"/>
+
+        <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:textAllCaps="false"/>
+
+        <Button
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageView"
+        android:textAllCaps="false"/>
+
+        <Button
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView"
+        android:textAllCaps="false"/>
+
+        <Button
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridView"
+        android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecyclerView"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WebView"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/alertdialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AlertDialog"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义Dialog"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="popup"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/jump"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jump"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/handler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Handler"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/touch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Touch"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/mysql"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MySQL"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/bluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BlueTooth"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FrameLayout"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/ratingbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RatingBar"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ProgressBar"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/intentTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intent"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/myView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MyView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/Store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/ServiceTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/Paint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="画布"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/sensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="传感器"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/baidumap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="百度地图(功能正在开发)"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Action Bar"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标题栏提示"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ToolBar"
+            android:textAllCaps="false" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <Button
+                android:id="@+id/f"
+                android:layout_width="400dp"
+                android:layout_height="500dp"
+                android:text="test"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/w"
+                android:layout_width="400dp"
+                android:layout_height="500dp"
+                android:text="test"
+                android:textAllCaps="false"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

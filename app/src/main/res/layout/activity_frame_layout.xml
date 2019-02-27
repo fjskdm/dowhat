@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@mipmap/ic_launcher"
+    android:foregroundGravity="center"
+    android:padding="10dp">
+    <!--foreground属性设计了一个前景图片，这个图片会始终显示在所有组件的最上方-->
+    <TextView
+        android:layout_gravity="center"
+        android:background="#ff0000"
+        android:layout_width="208dp"
+        android:layout_height="208dp"
+        android:text="Hello World"/>
+
+    <TextView
+        android:background="#ffff00"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Hello World"/>
+
+    <TextView
+        android:background="#ffffff"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Hello World"/>
+    
+</FrameLayout>

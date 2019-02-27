@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/TV_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="use it"
+        android:textColor="#0066FF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/TV_2"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:text="test it"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test it"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/icon"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/TV_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test it test it test it test it"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/TV_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test it"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/TV_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/TV_7"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="test it test it test it "
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        />
+</LinearLayout>
